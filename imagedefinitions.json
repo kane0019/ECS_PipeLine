@@ -5,7 +5,7 @@
         {
           "name": "ECS_Pipeline",
           "image": "347004570395.dkr.ecr.ap-southeast-2.amazonaws.com/ecs_test:ceabd47",
-          "cpu": 512,
+          "cpu": 256,
           "portMappings": [
             {
               "protocol": "tcp",
@@ -13,7 +13,7 @@
               "hostPort": 80
             }
           ],
-          "memory": 512,
+          "memory": 256,
           "essential": true
         }
       ]
